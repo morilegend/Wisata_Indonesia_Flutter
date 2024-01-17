@@ -1,0 +1,24 @@
+name: wisata_indonesia
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: 3.2.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.2.2
+  cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/wisata/
+    - assets/images/profile/
